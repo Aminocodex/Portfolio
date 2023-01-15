@@ -3,12 +3,12 @@
 body {
   color: #172b4d;
   background-color: #fff;
-}
-
-section {
   height: 718px;
   width: 375px;
-  border: 5px solid #ccc;
+}
+
+.main {
+
 }
 
 .navbar .container {
@@ -64,18 +64,22 @@ section {
   font-style: normal;
 }
 
-.social {
-  margin-left: 24px;
-}
-
 .con {
   margin-top: 0;
-  margin-bottom: 10px;
   margin-left: 24px;
   color: #7f8cff;
   font-size: 16px;
+  background:none; 
+  border:none;
+  padding: 0 0;
 }
 
 .social .scIcon {
-  margin-right: 19px;
+   margin-right: 19px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 24px;
 }
